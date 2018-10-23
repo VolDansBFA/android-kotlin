@@ -10,7 +10,8 @@
         tools:context=".MainActivity"
         android:id="@+id/linearLayout"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:padding="8dp">
 
     <EditText
             android:layout_width="match_parent"

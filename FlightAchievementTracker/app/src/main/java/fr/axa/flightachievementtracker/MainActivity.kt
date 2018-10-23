@@ -33,7 +33,9 @@ class MainActivity : AppCompatActivity(), Callback<Character> {
 
         val service:WoWAPIService = retrofit.create(WoWAPIService::class.java)
 
-        val call = service.getCharacter(et_character_name.text.toString(),et_realm.text.toString(),BuildConfig.API_KEY)
+        val call = service.getCharacter(et_character_name.text.toString(),
+            et_realm.text.toString(),
+            BuildConfig.API_KEY)
 
          b_search.setOnClickListener {
 
