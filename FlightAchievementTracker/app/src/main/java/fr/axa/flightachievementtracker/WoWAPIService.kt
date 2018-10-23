@@ -1,5 +1,6 @@
-package fr.axa.flightachivementtracker
+package fr.axa.flightachievementtracker
 
+import fr.axa.flightachievementtracker.Character
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
