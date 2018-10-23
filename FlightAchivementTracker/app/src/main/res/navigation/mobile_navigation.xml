@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/characterListFragment">
+
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="fr.axa.flightachivementtracker.CharacterListFragment"
+        android:label="fragment_character_list"
+        tools:layout="@layout/fragment_character_list" >
+        <action
+            android:id="@+id/action_characterListFragment_to_achievementListFragment"
+            app:destination="@id/achievementListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_characterListFragment_to_addCharacterFragment"
+            app:destination="@id/addCharacterFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCharacterFragment"
+        android:name="fr.axa.flightachivementtracker.AddCharacterFragment"
+        android:label="fragment_add_character"
+        tools:layout="@layout/fragment_add_character" />
+    <fragment
+        android:id="@+id/achievementListFragment"
+        android:name="fr.axa.flightachivementtracker.AchievementListFragment"
+        android:label="fragment_achievement_list"
+        tools:layout="@layout/fragment_achievement_list" >
+        <action
+            android:id="@+id/action_achievementListFragment_to_achivementDetailFragment"
+            app:destination="@id/achivementDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/achivementDetailFragment"
+        android:name="fr.axa.flightachivementtracker.AchivementDetailFragment"
+        android:label="fragment_achivement_detail"
+        tools:layout="@layout/fragment_achivement_detail" />
+    <fragment
+        android:id="@+id/availableCharactersFragment"
+        android:name="fr.axa.flightachivementtracker.AvailableCharactersFragment"
+        android:label="fragment_available_characters"
+        tools:layout="@layout/fragment_available_characters" />
+</navigation>
