@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity(), Callback<Character> {
         setContentView(R.layout.activity_main)
 
         val retrofit: Retrofit = Retrofit.Builder()
-            .baseUrl("https://eu.api.battle.net")
+            .baseUrl(BuildConfig.SERVICE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
         val service:WoWAPIService = retrofit.create(WoWAPIService::class.java)
 
-        val call = service.getCharacter("Odiryna","Archimonde")
+        val call = service.getCharacter(et_character_name.text.toString(),et_realm.text.toString(),BuildConfig.API_KEY)
 
          b_search.setOnClickListener {
 

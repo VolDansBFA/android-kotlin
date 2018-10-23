@@ -12,6 +12,24 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_character_name"
+            android:hint="Character Name"
+            android:text="Odiryna"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_realm"
+            android:hint="Realm"
+            android:text="Archimonde"/>
+
     <Button
             android:text="@string/search"
             android:layout_width="wrap_content"

@@ -1114,6 +1114,8 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id et_character_name
+id et_realm
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1317,7 +1319,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_achievement_list
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
