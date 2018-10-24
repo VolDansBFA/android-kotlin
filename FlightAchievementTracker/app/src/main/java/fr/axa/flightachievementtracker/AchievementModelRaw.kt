@@ -1,3 +1,16 @@
 package fr.axa.flightachievementtracker
 
-data class Achievement(val name: String)
+data class Achievement(val id: Int,
+                       val title: String,
+                       val points: Int,
+                       val description: String,
+                       //val rewardItems: List<Int>,
+                       val icon:String,
+                       val criteria: List<AchievementCriteria>,
+                       val accountWide:Boolean,
+                       val factionId: Int)
+
+data class AchievementCriteria (val id:Int,
+                                val description: String,
+                                val orderIndex: Int,
+                                val max: Int)
