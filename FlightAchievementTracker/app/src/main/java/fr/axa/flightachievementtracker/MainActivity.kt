@@ -2,6 +2,7 @@ package fr.axa.flightachievementtracker
 
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.content_main.*
 import retrofit2.Call
@@ -24,9 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val service:WoWAPIService = retrofit.create(WoWAPIService::class.java)
 
-        val characterCall = service.getCharacter(et_character_name.text.toString(),
-            et_realm.text.toString(),
-            BuildConfig.API_KEY)
+        val characterCall = service.getCharacter(et_character_name.text.toString(), et_realm.text.toString(), BuildConfig.API_KEY)
 
         val questCall = service.getQuest("50328", BuildConfig.API_KEY)
 
@@ -36,33 +35,84 @@ class MainActivity : AppCompatActivity() {
 
          b_search.setOnClickListener {
 
-             /*
-             if (characterCall.isExecuted) {
-                 characterCall.cancel()
-             } else {
-                 characterCall.enqueue(object : Callback<Character> {
-                     override fun onFailure(call: Call<Character>, t: Throwable) {
-                         tv_result.text = "Failed to get Characters"
-                     }
+             pb_spinner.visibility = View.VISIBLE
+             tv_result.text = ""
 
-                     override fun onResponse(call: Call<Character>, response: Response<Character>) {
-                         tv_result.text = response.body().toString()
-                     }
+             getCharacter(characterCall)
 
-                 })
-             }*/
+             //getRealms(realmCall)
 
-             realmCall.enqueue(object : Callback<Realms> {
-                 override fun onFailure(call: Call<Realms>, t: Throwable) {
-                     tv_result.text = "Failed to get Realms"
-                 }
+             //getQuest(questCall)
 
-                 override fun onResponse(call: Call<Realms>, response: Response<Realms>) {
-                     val filteredList : List<Realm>? = response.body()?.realms?.filter { it.locale == "fr_FR" }
-                     tv_result.text = filteredList.toString()
-                 }
-
-             })
+             //getAchievement(achievementCall)
         }
+    }
+
+
+
+
+    private fun getCharacter(characterCall: Call<Character>) {
+        characterCall.clone().enqueue(object : Callback<Character> {
+            override fun onFailure(call: Call<Character>, t: Throwable) {
+                displayFailedCalledMessage("Character")
+            }
+
+            override fun onResponse(call: Call<Character>, response: Response<Character>) {
+                tv_result.text = response.body()
+                    .toString() //possible takes time, need to set spinner visibility to task completion
+                pb_spinner.visibility = View.INVISIBLE
+            }
+
+        })
+    }
+
+    private fun getRealms(realmCall: Call<Realms>) {
+        realmCall.clone().enqueue(object : Callback<Realms> {
+            override fun onFailure(call: Call<Realms>, t: Throwable) {
+                displayFailedCalledMessage("Realms")
+            }
+
+            override fun onResponse(call: Call<Realms>, response: Response<Realms>) {
+                val filteredList: List<Realm>? = response.body()?.realms?.filter { it.locale == "fr_FR" }
+                tv_result.text = filteredList.toString()
+                pb_spinner.visibility = View.INVISIBLE
+            }
+
+        })
+    }
+
+    private fun getQuest(questCall: Call<Quest>) {
+        questCall.clone().enqueue(object : Callback<Quest> {
+            override fun onFailure(call: Call<Quest>, t: Throwable) {
+                displayFailedCalledMessage("Quest")
+            }
+
+            override fun onResponse(call: Call<Quest>, response: Response<Quest>) {
+                tv_result.text = response.body()
+                    .toString() //possible takes time, need to set spinner visibility to task completion
+                pb_spinner.visibility = View.INVISIBLE
+            }
+
+        })
+    }
+
+    private fun getAchievement(achievementCall: Call<Achievement>) {
+        achievementCall.clone().enqueue(object : Callback<Achievement> {
+            override fun onFailure(call: Call<Achievement>, t: Throwable) {
+                displayFailedCalledMessage("Achievemnent")
+            }
+
+            override fun onResponse(call: Call<Achievement>, response: Response<Achievement>) {
+                tv_result.text = response.body()
+                    .toString() //possible takes time, need to set spinner visibility to task completion
+                pb_spinner.visibility = View.INVISIBLE
+            }
+
+        })
+    }
+
+    private fun displayFailedCalledMessage(callName:String) {
+        tv_result.text = "Failed to get {$callName}"
+        pb_spinner.visibility = View.INVISIBLE
     }
 }
