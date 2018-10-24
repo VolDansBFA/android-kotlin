@@ -1,4 +1,4 @@
-package fr.axa.flightachievementtracker
+package fr.axa.flightachievementtracker.models.raw
 
 data class Realms(val realms:List<Realm>)
 data class Realm(val type:String,

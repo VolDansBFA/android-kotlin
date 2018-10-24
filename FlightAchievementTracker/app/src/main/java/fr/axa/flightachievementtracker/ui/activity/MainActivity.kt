@@ -1,9 +1,16 @@
-package fr.axa.flightachievementtracker
+package fr.axa.flightachievementtracker.ui.activity
 
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import fr.axa.flightachievementtracker.BuildConfig
+import fr.axa.flightachievementtracker.R
+import fr.axa.flightachievementtracker.models.raw.Achievement
+import fr.axa.flightachievementtracker.models.raw.Character
+import fr.axa.flightachievementtracker.models.raw.Quest
+import fr.axa.flightachievementtracker.models.raw.Realm
+import fr.axa.flightachievementtracker.models.raw.Realms
+import fr.axa.flightachievementtracker.service.WoWAPIService
 import kotlinx.android.synthetic.main.content_main.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -23,9 +30,11 @@ class MainActivity : AppCompatActivity() {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-        val service:WoWAPIService = retrofit.create(WoWAPIService::class.java)
+        val service: WoWAPIService = retrofit.create(WoWAPIService::class.java)
 
-        val characterCall = service.getCharacter(et_character_name.text.toString(), et_realm.text.toString(), BuildConfig.API_KEY)
+        val characterCall = service.getCharacter(et_character_name.text.toString(), et_realm.text.toString(),
+            BuildConfig.API_KEY
+        )
 
         val questCall = service.getQuest("50328", BuildConfig.API_KEY)
 
@@ -38,13 +47,13 @@ class MainActivity : AppCompatActivity() {
              pb_spinner.visibility = View.VISIBLE
              tv_result.text = ""
 
-             getCharacter(characterCall)
+             //getCharacter(characterCall)
 
              //getRealms(realmCall)
 
              //getQuest(questCall)
 
-             //getAchievement(achievementCall)
+             getAchievement(achievementCall)
         }
     }
 

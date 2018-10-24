@@ -1,4 +1,4 @@
-package fr.axa.flightachievementtracker
+package fr.axa.flightachievementtracker.models.raw
 
 data class Quest(val id: Int,
                  val title: String,

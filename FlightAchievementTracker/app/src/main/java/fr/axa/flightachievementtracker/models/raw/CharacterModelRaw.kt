@@ -1,4 +1,4 @@
-package fr.axa.flightachievementtracker
+package fr.axa.flightachievementtracker.models.raw
 
 import com.google.gson.annotations.SerializedName
 
@@ -16,7 +16,7 @@ data class Character(val lastModified: Long,
                      val faction:Int,
                      val stats: CharacterStats,
                      val reputation:List<CharacterReputation>,
-                     val achievements:CharacterAchievements,
+                     val achievements: CharacterAchievements,
                      val quests:List<Int>,
                      val totalHonorableKills:Int
 )

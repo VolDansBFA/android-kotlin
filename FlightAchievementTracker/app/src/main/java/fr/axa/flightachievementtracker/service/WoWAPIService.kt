@@ -1,5 +1,9 @@
-package fr.axa.flightachievementtracker
+package fr.axa.flightachievementtracker.service
 
+import fr.axa.flightachievementtracker.models.raw.Achievement
+import fr.axa.flightachievementtracker.models.raw.Character
+import fr.axa.flightachievementtracker.models.raw.Quest
+import fr.axa.flightachievementtracker.models.raw.Realms
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
