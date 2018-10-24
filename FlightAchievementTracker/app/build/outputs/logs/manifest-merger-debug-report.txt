@@ -1,18 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-ui-ktx-1.0.0-alpha06.aar/c3f136cae6fe233643451b7b66aa3274/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-ui-1.0.0-alpha06.aar/6e7b2b445b5abe7f0be8bf27afc421bb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e74abf6632dd28386881438674e404c4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/b0277f6e0772f10c6d97a4327d2f0420/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/d9706294ef3151d27b10af3da61758e4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/4f424ef475c4a136bbb2c084c976576e/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/c8737f09c0fe9ae2f3ae4d87466deca6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/0eeac58f7985c8d9a6ef12a18f7aaea1/AndroidManifest.xml:17:1-25:12
 MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-ktx-1.0.0-alpha06.aar/ebe814540881e290ee9d0e606fd1a39d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-ktx-1.0.0-alpha06.aar/3227f69517be6cf9e201458a67e1a6bb/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/10258e3f3854a0a7728eeae2863e099e/AndroidManifest.xml:17:1-22:12
@@ -38,29 +39,33 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nicolas.linard/.
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a4f93813988176909093fe7a5a98e884/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/be8d693888ed3c6bbf867d8468bc78f0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/9dfdcf7a8eedcde609fa5cccd57f063d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a824b572abe18ac5d48efb2ca24a8c/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/848037dc4dd40266aa26beaf474f9420/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ad090b8d06d39737986e9a82062d7f4a/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/e1b18647c56985d76273fc8d41b28f8b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:3:11-52
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:3:58-99
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:3:11-57
 	android:versionCode
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:2:11-69
@@ -73,47 +78,55 @@ ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementT
 	android:name
 		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:8:5-25:19
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:8:5-27:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e74abf6632dd28386881438674e404c4/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e74abf6632dd28386881438674e404c4/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/4f424ef475c4a136bbb2c084c976576e/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/4f424ef475c4a136bbb2c084c976576e/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/0eeac58f7985c8d9a6ef12a18f7aaea1/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/0eeac58f7985c8d9a6ef12a18f7aaea1/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/e37fc232fec4b9f0be38bc4500e9225d/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/e37fc232fec4b9f0be38bc4500e9225d/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/366499abed71d32b847b2410dade2627/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/366499abed71d32b847b2410dade2627/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:22:5-28:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/e37fc232fec4b9f0be38bc4500e9225d/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:13:13-39
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:14:13-39
 	android:label
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:11:13-45
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:12:13-45
+	tools:ignore
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:16:13-52
 	android:roundIcon
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:12:13-58
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:13:13-58
 	android:icon
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:10:13-47
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:11:13-47
 	android:allowBackup
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:9:13-39
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:10:13-39
 	android:theme
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:14:13-44
-activity#fr.axa.flightachievementtracker.MainActivity
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:15:9-24:20
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:15:13-44
+	android:name
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:9:13-64
+activity#fr.axa.flightachievementtracker.ui.activity.MainActivity
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:17:17-49
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:19:17-49
 	android:theme
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:18:17-60
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:20:17-60
 	android:name
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:16:17-45
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:18:17-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:20:17-68
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:22:17-68
 	android:name
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:22:17-76
+ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
@@ -126,16 +139,18 @@ MERGED from [com.google.android.material:material:1.0.0] /Users/nicolas.linard/.
 MERGED from [com.google.android.material:material:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e74abf6632dd28386881438674e404c4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/b0277f6e0772f10c6d97a4327d2f0420/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/b0277f6e0772f10c6d97a4327d2f0420/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/d9706294ef3151d27b10af3da61758e4/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/d9706294ef3151d27b10af3da61758e4/AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/4f424ef475c4a136bbb2c084c976576e/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/4f424ef475c4a136bbb2c084c976576e/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-ktx-1.0.0-alpha06.aar/db7d566ade88bf412c5fdbfaa3468bc5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-fragment-1.0.0-alpha06.aar/246d1c3146c789e36247243c60f1539f/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/c8737f09c0fe9ae2f3ae4d87466deca6/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/c8737f09c0fe9ae2f3ae4d87466deca6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/0eeac58f7985c8d9a6ef12a18f7aaea1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/0eeac58f7985c8d9a6ef12a18f7aaea1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-ktx-1.0.0-alpha06.aar/ebe814540881e290ee9d0e606fd1a39d/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-ktx-1.0.0-alpha06.aar/ebe814540881e290ee9d0e606fd1a39d/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha06] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-ktx-1.0.0-alpha06.aar/3227f69517be6cf9e201458a67e1a6bb/AndroidManifest.xml:20:5-44
@@ -186,24 +201,28 @@ MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/nicolas.linard/
 MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/be8d693888ed3c6bbf867d8468bc78f0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/9dfdcf7a8eedcde609fa5cccd57f063d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/9dfdcf7a8eedcde609fa5cccd57f063d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a824b572abe18ac5d48efb2ca24a8c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a824b572abe18ac5d48efb2ca24a8c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/848037dc4dd40266aa26beaf474f9420/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/848037dc4dd40266aa26beaf474f9420/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ad090b8d06d39737986e9a82062d7f4a/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ad090b8d06d39737986e9a82062d7f4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/e1b18647c56985d76273fc8d41b28f8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/e1b18647c56985d76273fc8d41b28f8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/05301a4ea3ef5b235287c369c49bef1c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d0224d6ca211357a6b65e22e046fe37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7ec0592bce640d8a6a760163917e6245/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5c907a5d1cfaeae8e0c74ac0c50a5b80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/828a91af4604d8c985f8f35fb72f0892/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/485c038caa52156dfd9011df4d8f9c9a/AndroidManifest.xml:20:5-44
 INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -214,3 +233,13 @@ INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchieveme
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 		ADDED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nicolas.linard/Documents/android/VolDansBfa/FlightAchievementTracker/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/nicolas.linard/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/f0ae94fd4c9a9e3fed6bef9c4498e73b/AndroidManifest.xml:24:13-79
